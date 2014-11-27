@@ -1,4 +1,4 @@
-FwdMarket Timepicker
-====================
+TimePicker
+==========
 
-A slick timepicker using MomentJs with default Twitter Bootstrap integration.
+A slick time picker using MomentJs with default Twitter Bootstrap integration.
