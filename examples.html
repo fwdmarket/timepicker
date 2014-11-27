@@ -8,12 +8,15 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css" media="print">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap-theme.min.css" media="print">
+    <link rel="stylesheet" type="text/css" href="dist/timepicker.css" media="print">
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>Timepicker by fwdmarket</title>
+    <title>Timepicker examples by fwdmarket</title>
   </head>
 
   <body>
@@ -28,22 +31,12 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <h3>
-<a id="fwdmarket-timepicker" class="anchor" href="#fwdmarket-timepicker" aria-hidden="true"><span class="octicon octicon-link"></span></a>FwdMarket TimePicker</h3>
-
-<p>The goal of this project is to be an extensible time picker component.</p>
-
-<p>The current version uses moment.js as a base for all time operations and Twitter Bootstrap dropdown component for displaying the time picker.</p>
-
-<h3>
-<a id="examples" class="anchor" href="#examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples</h3>
-
-<p>Check out some examples of the plugin in action: <a href="http://fwdmarket.github.io/timepicker/examples.html">http://fwdmarket.github.io/timepicker/examples.html</a></p>
-
-<h3>
-<a id="custom-design" class="anchor" href="#custom-design" aria-hidden="true"><span class="octicon octicon-link"></span></a>Custom Design</h3>
-
-<p>The layout and design of the timepicker can be done by modifying the template from the <code>TPGlobal.template</code> variable and by altering the <code>*.less</code> files distributed with the archive.</p>
+          <h3>TimePicker Examples</h3>
+          <form action="">
+            <div class="form-group">
+              <input type="text" data-provide="timepicker" value="4:00 PM" class="form-control"/>
+            </div>
+          </form>
         </section>
 
         <aside id="sidebar">
@@ -63,6 +56,9 @@
       </div>
     </div>
 
-  
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="dist/timepicker.min.js"></script>
   </body>
 </html>
