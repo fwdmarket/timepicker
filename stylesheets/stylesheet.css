@@ -517,14 +517,17 @@ aside#sidebar p.repo-owner a {
 }
 
 a.button {
-  width: 134px;
-  height: 58px;
+  width: 202px;
+  height: 80px;
   line-height: 1.2;
   font-size: 23px;
   color: #fff;
   padding-left: 68px;
   padding-top: 22px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+a.button:hover{
+    color: #fff;
 }
 a.button small {
   display: block;
@@ -537,7 +540,7 @@ header a.button {
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 aside a.button {
-  width: 138px;
+  width: 202px;
   padding-left: 64px;
   display: block;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
