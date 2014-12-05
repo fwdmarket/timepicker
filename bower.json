@@ -1,6 +1,25 @@
 {
-  "name": "fwdmarket/timepicker",
+  "name": "fwdmarket-timepicker",
   "version": "0.1.0",
+  "license": "MIT",
+  "keywords": ["momentjs", "timepicker", "bootstrap", "jquery", "plugin"],
+  "homepage": "http://fwdmarket.github.io/timepicker/",
+  "authors":[
+    { "name": "Cosmin Harangus", "email": "cosmin@fwdmarket.com", "homepage": "http://fwdmarket.com" }
+  ],
+  "main": [
+    "dist/timepicker.min.js",
+    "dist/timepicker.css"
+  ],
+  "ignore": [
+    ".jshintrc",
+    "node_modules/",
+    "vendor/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fwdmarket/timepicker.git"
+  },
   "dependencies": {
     "bootstrap": "~3.3.1",
     "moment": "~2.8.4",

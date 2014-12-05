@@ -1,5 +1,5 @@
-TimePicker
-==========
+Fwdmarket Timepicker
+====================
 
 A slick time picker using MomentJs with default Twitter Bootstrap integration.
 
